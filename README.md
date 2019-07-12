@@ -1,12 +1,22 @@
 # WRF_installation
 
+Contents
+
 1) What it the puropse of this repository?
+
 2a) Which steps does the installation script?
+
 2b) What is in the wrfscripts directory?
+
 3a) What is neccessary to start the installation?
+
 3b) That do I have to do while the installation?
+
 4) What do I have to do after the installation to use WRF?
+
 5) Which errors can happen while the installation and how to deal with them?
+
+###########################################################
 
 1) This repository consists of a script *for the installation of a WRF version* (wrfinstall.sh) and neccessary files to start the WRF forecast with your (new) version.
 
