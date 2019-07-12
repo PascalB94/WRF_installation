@@ -12,7 +12,7 @@
 
 2a) The installation script does the following steps:
 -untar the .tar or tar.gz files of WRF and WPS
--installation of neccessary libraries: netCDF, MPICH, libpng, JasPer and  
+-installation of neccessary libraries: netCDF, MPICH, libpng, JasPer and zlib
 -compilation of the WPS and WRF version 
 => Execute files geogrid.exe, ungrib.exe, metgrid.exe, real.exe, ndown.exe, wrf.exe are built
 -build a directory structure for running WRF and saving the results
