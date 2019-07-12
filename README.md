@@ -44,9 +44,11 @@ In total (if successful), the installation of WRF takes about one hour on JURECA
 -change variables in wrfrun.ksh (for some variables there are printed out suggestions, the other ones depend on your purpose/needs) 
 -download meteorological input data (MARS; if not on your platform) and insert the MARS data path on your platform in wrfrun.ksh: METINPUT variable
 -the same applies to the geogrid data and the GEOG variable). You can find the geogrid data here: http://www2.mmm.ucar.edu/wrf/users/download/get_sources_wps_geog.html.
--change the (batch...)
-After that ...
+-in one of the first lines of all .in files insert the partition you want to use (JURECA: batch, devel, ...). If you work on another platform than JURECA, maybe you have to change all #SBATCH cmmands.
 
-  
+If you are ready with all steps, test your WRF version with "./wrfrun.sh" in the scripts directory.
+
+5) If an error happens in while the installation, possible reasons and solutions of this error can be found on the top of the wrfinstall.sh script. If you get a "new" error during the installation, please tell me the reason and solution, when you have found it.
+Errors while the run of WRF can be due to envoronment problems (look at the "module load" and "export" commands in the .in files) or due to incorrect pathesl e. g. to the MARS data.
 
 
