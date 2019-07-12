@@ -20,8 +20,8 @@ Contents
 
 1) This repository consists of a script *for the installation of a WRF version* (wrfinstall.sh) and neccessary files to start the WRF forecast with your (new) version.
 
-2) The installation script does the following steps:
--untar the .tar or tar.gz files of WRF and WPS
+2) The installation script does the following steps: \
+-untar the .tar or tar.gz files of WRF and WPS \
 -installation of neccessary libraries: netCDF, MPICH, libpng, JasPer and zlib
 -compilation of the WPS and WRF version 
 => Execute files geogrid.exe, ungrib.exe, metgrid.exe, real.exe, ndown.exe, wrf.exe are built
